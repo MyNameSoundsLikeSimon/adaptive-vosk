@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNovaRegular';
+    src: url('../fonts/ProximaNova-Reg.otf') format('opentype');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'ProximaNovaBold';
+    src: url('../fonts/ProximaNova-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'OpenSansItalic';
+    src: url('../fonts/OpenSans-Italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ProximaNovaBold';
+    src: url('../fonts/ProximaNova-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'icomoon';
+    src: url("../fonts/icon-font/IcoMoon-Free.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal; 
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale; 
+}
+
+.icon-fb:before {  content: "\ea90"; }
+.icon-inst:before {  content: "\ea92"; }
+.icon-vk:before {  content: "\ea98"; }
+
+a, li, div,
+span, p {
+    font-family: 'OpenSansRegular';
+    color: #333333;
+}
+h1, h2, h3, 
+h4, h5, h6  {
+    font-family: 'OpenSansBold';
+    color: #333333;
+}
+.text-pink {
+    color: #fd305f !important;
+}
+.text-blue {
+    color: #00E0DA;
+}
+h1, h2, h3, 
+h4, h5, h6 {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+a:visited,
+a:focus {
+    text-decoration: none;
+}
